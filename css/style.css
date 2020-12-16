@@ -1,11 +1,20 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
     box-sizing: border-box;
+    
+}
+*:focus {
+    outline: none;
 }
 
 body {
-    background: #f6f5f7;
+    
+     background-image: url('/images/MotherBoard.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    background-attachment: scroll;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,6 +202,16 @@ input{
     width: 50%;
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
+}
+
+.PanelLogo{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "Pacifico" ;
+    border: 1px solid ;
+    border-radius: 25px;
+    padding:  5px;
+    cursor: pointer;
 }
 
 .overlay-left {
