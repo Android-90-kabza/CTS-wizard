@@ -53,14 +53,7 @@ ul, li ,a {
     
 }
 
-a{
-    border-top: 3px solid #09c;
-    border-radius: 25px;
-}
 
-a:hover{
-    border-bottom: 3px solid #09c;
-}
 
 /*container for the body of the page*/
 .mainbody-container {
@@ -145,9 +138,9 @@ input[type="search"]{
 
 .button-link:hover{
     border: 5px solid #039;
-    background-color: #f1f1f1;
+    background-color: #9cc;
     color: #039;
-    box-shadow: 10px 0px 15px 5px rgb(87, 240, 219), -10px 0px 15px 5px  rgb(87, 240, 219);
+    
 }
 /*main content page*/
 main{
@@ -198,4 +191,23 @@ main{
     background-attachment: cover;
     background-position: center;
 
+}
+
+.studentsearch{
+
+}
+
+.topbar{
+    color: #9cc;
+    border: 1px solid #9cc ;
+
+}
+
+.topbar:hover{
+    background-color: #09c;
+    border-radius: 15px;
+}
+
+.sidebar{
+    color: #039;
 }
